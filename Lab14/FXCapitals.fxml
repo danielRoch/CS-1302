@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Lab14 9am-->
+<!--Daniel Rochefort-->
+
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lab14.Controller">
+   <children>
+      <Label fx:id="selectCountryLabel" layoutX="22.0" layoutY="53.0" text="Select A Country:" />
+      <ComboBox fx:id="selectCountryBox" layoutX="120.0" layoutY="49.0" onAction="#comboChanged" prefWidth="150.0" promptText="Select Country" />
+      <Label fx:id="countrysCapitalLabel" layoutX="21.0" layoutY="95.0" text="Country's Capital:" />
+      <Label fx:id="answerCountryCapitalLabel" layoutX="120.0" layoutY="95.0" prefHeight="17.0" prefWidth="150.0" text=" " />
+   </children>
+</AnchorPane>
